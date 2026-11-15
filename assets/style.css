@@ -144,3 +144,8 @@ body.modal-open { overflow: hidden; }
 
 /* accession id label in title cell */
 .rowid { display: block; font-family: var(--mono); font-size: 11px; color: var(--faint); font-weight: 600; letter-spacing: .02em; margin-bottom: 2px; }
+
+.validated{margin:.2rem 0 1rem;padding:.5rem .7rem;background:#e7f3ec;border-left:3px solid #3f8f63;color:#24563b;font-size:.9rem}
+.vtag{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;background:#e7f3ec;color:#24563b;font-size:11px;font-weight:600;white-space:nowrap}
+blockquote.payload-text{margin:0 0 6px;padding:10px 14px;background:var(--surface);border-left:3px solid #b5483a;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;white-space:pre-wrap;max-width:760px}
+.payload-meta,.payload-none{color:var(--muted);font-size:13px;margin:0 0 1rem}

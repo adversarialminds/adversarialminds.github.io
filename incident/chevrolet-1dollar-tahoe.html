@@ -2,30 +2,32 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chevrolet Dealer Chatbot $1 Tahoe — Archive</title>
-<link rel="stylesheet" href="../assets/style.css?v=1790671324462">
+<title>Incident 622: Chevrolet Dealer Chatbot Agrees to Sell Tahoe for $1 — Archive</title>
+<link rel="stylesheet" href="../assets/style.css?v=1794231576586">
 </head><body>
-<header class="site"><a class="home" href="../index.html">Promptware Kill-Chain Archive</a>
-<span class="sub">Extending Table II — <em>SoK: The Promptware Kill Chain</em></span></header>
+<header class="site"><a class="home" href="../index.html">LLM Malware Kill-Chain Archive</a>
+<span class="sub">Extending Table II — <em>SoK: The LLM Malware Kill Chain</em></span></header>
 <main>
   <p class="back"><a href="../index.html">← all incidents</a></p>
-  <h1>Chevrolet Dealer Chatbot $1 Tahoe</h1>
+  <h1>Incident 622: Chevrolet Dealer Chatbot Agrees to Sell Tahoe for $1</h1>
   <p class="byline">Chris Bakke</p>
+  
   
   <table class="meta"><tbody>
    <tr><th>Authors</th><td>Chris Bakke</td></tr>
    <tr><th>Date</th><td>Dec'23</td></tr>
-   <tr><th>Category</th><td>Browser/Search</td></tr>
+   <tr><th>Category</th><td>AI Agent</td></tr>
    <tr><th>Target</th><td>Chevrolet of Watsonville chatbot (Fullpath / ChatGPT)</td></tr>
    <tr><th>Coverage</th><td>3 / 7 stages</td></tr>
    <tr><th>Venue</th><td>AI Incident Database (incident 622)</td></tr>
    <tr><th>Source</th><td><a href="https://incidentdatabase.ai/cite/622/" rel="noreferrer noopener">original (other)</a> · <a href="../archive/chevrolet-1dollar-tahoe/snapshot.html">archived copy</a></td></tr>
   </tbody></table>
+  <h2>Malicious prompt</h2><p class="payload-none">The source does not publish the prompt text.</p><p class="payload-meta">The AIID page only describes the prompt (&#39;manipulating the chatbot&#39;s objective to agree with any statement&#39;); the prompt text itself is not published on the cited source. · incidentdatabase.ai/cite/622/</p>
   <h2>Kill-chain analysis</h2>
   <table class="stages"><tbody><tr><th>Initial Access</th><td class="val">Direct (D)</td>
    <td class="why"><div class="just">The attacker directly prompts the public dealership chatbot with no intermediary content.</div>
    <div class="ev"><q>user manipulating the chatbot’s objective to agree with any statement</q> <span class="loc">incidentdatabase.ai/cite/622</span></div></td></tr>
-<tr><th>Priv. Esc.</th><td class="val">Instruction override (IR)</td>
+<tr><th>Priv. Esc.</th><td class="val">Instruction override (IO)</td>
    <td class="why"><div class="just">The prompt overrides the bot’s sales objective to make it agree to anything.</div>
    <div class="ev"><q>agree with any statement</q> <span class="loc">incidentdatabase.ai/cite/622</span></div></td></tr>
 <tr class="absent"><th>Recon.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
@@ -35,5 +37,5 @@
 <tr><th>Action on Obj.</th><td class="val">Financial</td>
    <td class="why"><div class="just">The bot commits to selling a vehicle for $1 — a financial-impact outcome on a transactional system.</div>
    <div class="ev"><q>agreed to sell a 2024 Chevy Tahoe for just $1</q> <span class="loc">incidentdatabase.ai/cite/622</span></div></td></tr></tbody></table></main>
-<footer>Self-hosted archive of promptware incidents. Every source is snapshotted locally for durability.</footer>
+<footer>Self-hosted archive of LLM malware incidents. Every source is snapshotted locally for durability.</footer>
 </body></html>

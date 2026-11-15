@@ -3,15 +3,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>15 Ways to Break Your Copilot — Archive</title>
-<link rel="stylesheet" href="../assets/style.css?v=1790671324462">
+<link rel="stylesheet" href="../assets/style.css?v=1794231576586">
 </head><body>
-<header class="site"><a class="home" href="../index.html">Promptware Kill-Chain Archive</a>
-<span class="sub">Extending Table II — <em>SoK: The Promptware Kill Chain</em></span></header>
+<header class="site"><a class="home" href="../index.html">LLM Malware Kill-Chain Archive</a>
+<span class="sub">Extending Table II — <em>SoK: The LLM Malware Kill Chain</em></span></header>
 <main>
   <p class="back"><a href="../index.html">← all incidents</a></p>
   <h1>15 Ways to Break Your Copilot</h1>
   <p class="byline">Michael Bargury, Inbar Raz</p>
   
+  <p class="validated"><strong>✓</strong> Kill-chain analysis validated with the original authors.</p>
   <table class="meta"><tbody>
    <tr><th>Authors</th><td>Michael Bargury, Inbar Raz</td></tr>
    <tr><th>Date</th><td>Aug'24</td></tr>
@@ -21,6 +22,7 @@
    <tr><th>Venue</th><td>Black Hat USA 2024 (slide deck)</td></tr>
    <tr><th>Source</th><td><a href="https://i.blackhat.com/BH-US-24/Presentations/US24-MichaelBargury-15WaystoBreakYourCopilot.pdf" rel="noreferrer noopener">original (other)</a> · <a href="../archive/15-ways-break-copilot/paper.pdf">archived copy</a></td></tr>
   </tbody></table>
+  <h2>Malicious prompt</h2><p class="payload-none">The source does not publish the prompt text.</p><p class="payload-meta">The slide deck never publishes an injected prompt; it only describes the risk (e.g., p55: &#39;Malicious users can deliberately prompt-inject other environments and data&#39;). · US24-MichaelBargury-15WaystoBreakYourCopilot.pdf</p>
   <h2>Kill-chain analysis</h2>
   <table class="stages"><tbody><tr><th>Initial Access</th><td class="val">Indirect (I)</td>
    <td class="why"><div class="just">Copilot knowledge sources ingest attacker-controllable external web content as trusted input to the bot.</div>
@@ -39,5 +41,5 @@
 <tr><th>Action on Obj.</th><td class="val">Data exfiltration</td>
    <td class="why"><div class="just">The chained defaults produce data leakage and over-sharing of sensitive enterprise data out of the tenant.</div>
    <div class="ev"><q>Multiple data leakage scenarios</q> <span class="loc">US24-MichaelBargury-15WaystoBreakYourCopilot.pdf p82 (recap)</span></div></td></tr></tbody></table></main>
-<footer>Self-hosted archive of promptware incidents. Every source is snapshotted locally for durability.</footer>
+<footer>Self-hosted archive of LLM malware incidents. Every source is snapshotted locally for durability.</footer>
 </body></html>

@@ -54,7 +54,7 @@ function render() {
   const q = $('#q').value.toLowerCase(), nf = $('#newf').value, cov = +$('#cov').value;
   const rows = DATA.filter(d =>
     (!CATSEL.size || CATSEL.has(d.category)) && (!YEARSEL.size || YEARSEL.has(d.date.slice(0, 4))) &&
-    (!nf || (nf === 'new') === d.isNew) && d.coverage >= cov &&
+    (!nf || (nf === 'val' ? d.validated : (nf === 'new') === d.isNew)) && d.coverage >= cov &&
     (!q || d.title.toLowerCase().includes(q) || d.target.toLowerCase().includes(q) || (d.authors||"").toLowerCase().includes(q)));
   $('#grid tbody').innerHTML = rows.map(d => {
     const cells = STAGES.map(s => {
@@ -62,9 +62,10 @@ function render() {
       return v ? `<td class="on"><span class="chip" title="${esc(v)}">${esc(v)}</span></td>` : '<td class="off">–</td>';
     }).join('');
     const tag = d.isNew ? ' <span class="newtag">NEW</span>' : '';
+    const val = d.validated ? ' <span class="vtag" title="Kill-chain analysis validated with the original authors">\u2713 validated</span>' : '';
     const q = d.questioned ? ' <span class="qtag" title="Not demonstrated against a real LLM-integrated application">?</span>' : '';
     const venue = d.venue && d.venue !== 'TODO-verify' ? esc(d.venue) : '<span class="pending">TBD</span>';
-    return `<tr data-slug="${d.slug}"><td class="title">${d.id?`<span class="rowid">${esc(d.id)}</span>`:""}<a class="rowlink" href="incident/${d.slug}.html">${esc(d.title)}</a>${tag}${q}${d.authors&&d.authors!=="TODO-verify"?`<div class="rowauth">${esc(d.authors)}</div>`:""}</td><td>${d.dateDisplay}</td><td>${esc(d.category)} <span class="cat-app">(${esc(d.target)})</span></td><td>${esc(d.target)}</td><td class="venue">${venue}</td>${cells}<td class="cov cov-${d.coverage}"><span class="badge">${d.coverage}</span></td></tr>`;
+    return `<tr data-slug="${d.slug}"><td class="title">${d.id?`<span class="rowid">${esc(d.id)}</span>`:""}<a class="rowlink" href="incident/${d.slug}.html">${esc(d.title)}</a>${tag}${val}${q}${d.authors&&d.authors!=="TODO-verify"?`<div class="rowauth">${esc(d.authors)}</div>`:""}</td><td>${d.dateDisplay}</td><td>${esc(d.category)} <span class="cat-app">(${esc(d.target)})</span></td><td>${esc(d.target)}</td><td class="venue">${venue}</td>${cells}<td class="cov cov-${d.coverage}"><span class="badge">${d.coverage}</span></td></tr>`;
   }).join('');
   $('#grid tbody').querySelectorAll('tr').forEach(tr => {
     tr.addEventListener('click', e => {

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bad Vibes - Pwning Coding Agents 70 Times With The Same Bugs — Archive</title>
+<link rel="stylesheet" href="../assets/style.css?v=1794231576586">
+</head><body>
+<header class="site"><a class="home" href="../index.html">LLM Malware Kill-Chain Archive</a>
+<span class="sub">Extending Table II — <em>SoK: The LLM Malware Kill Chain</em></span></header>
+<main>
+  <p class="back"><a href="../index.html">← all incidents</a></p>
+  <h1>Bad Vibes - Pwning Coding Agents 70 Times With The Same Bugs</h1>
+  <p class="byline">Nil Ashkenazi, Philip Tsukerman, Alon Zahavi</p>
+  
+  
+  <table class="meta"><tbody>
+   <tr><th>Authors</th><td>Nil Ashkenazi, Philip Tsukerman, Alon Zahavi</td></tr>
+   <tr><th>Date</th><td>Apr'26</td></tr>
+   <tr><th>Category</th><td>Coding Assistant</td></tr>
+   <tr><th>Target</th><td>21 coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot, Kiro, Windsurf, …)</td></tr>
+   <tr><th>Coverage</th><td>3 / 7 stages</td></tr>
+   <tr><th>Venue</th><td>Black Hat Asia 2026</td></tr>
+   <tr><th>Source</th><td><a href="https://i.blackhat.com/Asia-26/Presentations/BlackHat-ASIA2026-BadVibes.pdf" rel="noreferrer noopener">original (other)</a> · <span class="pending">archive pending</span></td></tr>
+  </tbody></table>
+  <h2>Malicious prompt</h2><p class="payload-none">The source does not publish the prompt text.</p><p class="payload-meta">The slides never publish the injected prompt; they show only the commands the hijacked agent emits (e.g. &quot;dir &amp;&amp; calc&quot;) and the abstract only mentions a &quot;successful prompt injection&quot;. · <a href="https://i.blackhat.com/Asia-26/Presentations/BlackHat-ASIA2026-BadVibes.pdf" rel="noreferrer noopener">source</a></p>
+  <h2>Kill-chain analysis</h2>
+  <table class="stages"><tbody><tr><th>Initial Access</th><td class="val">Indirect (I)</td>
+   <td class="why"><div class="just">The talk assumes a prompt injection reaches the coding agent through content it processes; the slides do not name the specific carrier.</div>
+   <div class="ev"><q>showing how to turn a successful prompt injection into a devastating machine compromise</q> <span class="loc">Abstract, https://citation.thinkst.com/talk/103103</span></div></td></tr>
+<tr><th>Priv. Esc.</th><td class="val">Misc.</td>
+   <td class="why"><div class="just">The hijacked agent bypasses guardrails, for example auto-approve allowlists that misparse compound commands, protected-path checks, and terminal sandboxes.</div>
+   <div class="ev"><q>dir &amp;&amp; calc OR dir | calc → OKAY</q> <span class="loc">Slide &quot;Command Injections&quot;</span></div></td></tr>
+<tr class="absent"><th>Recon.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr class="absent"><th>Persist.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr class="absent"><th>C2</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr class="absent"><th>Lat. Mov.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr><th>Action on Obj.</th><td class="val">RCE</td>
+   <td class="why"><div class="just">The bypasses yield arbitrary command execution on the developer host, directly or through written configs (MCP servers, tool permissions, git hooks).</div>
+   <div class="ev"><q>Writing outside the project scope may lead to RCE in many ways.</q> <span class="loc">Slide &quot;Writing to The Host&quot;</span></div></td></tr></tbody></table></main>
+<footer>Self-hosted archive of LLM malware incidents. Every source is snapshotted locally for durability.</footer>
+</body></html>
