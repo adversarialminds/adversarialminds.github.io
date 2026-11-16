@@ -149,3 +149,6 @@ body.modal-open { overflow: hidden; }
 .vtag{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;background:#e7f3ec;color:#24563b;font-size:11px;font-weight:600;white-space:nowrap}
 blockquote.payload-text{margin:0 0 6px;padding:10px 14px;background:var(--surface);border-left:3px solid #b5483a;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;white-space:pre-wrap;max-width:760px}
 .payload-meta,.payload-none{color:var(--muted);font-size:13px;margin:0 0 1rem}
+
+.ptag{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;background:#eef0f7;color:#33406b;font-size:11px;font-weight:600;white-space:nowrap}
+.legend{font-size:.9rem;margin:.2rem 0 1rem}

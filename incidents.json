@@ -13,6 +13,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Instruction override (IO)",
@@ -38,6 +39,7 @@
     "isNew": false,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -63,6 +65,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -88,6 +91,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -113,6 +117,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -138,6 +143,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -163,6 +169,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -188,6 +195,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -213,6 +221,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -238,6 +247,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -263,6 +273,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -288,6 +299,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -313,6 +325,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Instruction override (IO)",
@@ -338,6 +351,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -363,6 +377,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Instruction override (IO)",
@@ -388,6 +403,7 @@
     "isNew": false,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -413,6 +429,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -438,6 +455,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Instruction override (IO)",
@@ -463,6 +481,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -488,6 +507,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -513,6 +533,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -538,6 +559,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -563,6 +585,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -588,6 +611,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -613,6 +637,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -638,6 +663,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -663,6 +689,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -688,6 +715,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -713,6 +741,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -738,6 +767,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -763,6 +793,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -788,6 +819,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -813,6 +845,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -838,6 +871,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -863,6 +897,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Misc.",
@@ -888,6 +923,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -913,6 +949,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -938,6 +975,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -963,6 +1001,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Misc.",
@@ -988,6 +1027,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1013,6 +1053,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1038,6 +1079,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1063,6 +1105,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1088,6 +1131,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1113,6 +1157,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1138,6 +1183,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1163,6 +1209,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1188,6 +1235,7 @@
     "isNew": false,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1213,6 +1261,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1238,6 +1287,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1263,6 +1313,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1288,6 +1339,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1313,6 +1365,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1338,6 +1391,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1363,6 +1417,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1388,6 +1443,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1413,6 +1469,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1438,6 +1495,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1463,6 +1521,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1488,6 +1547,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1513,6 +1573,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1538,6 +1599,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1563,6 +1625,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1588,6 +1651,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1613,6 +1677,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1638,6 +1703,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1663,6 +1729,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1688,6 +1755,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1713,6 +1781,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -1738,6 +1807,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1763,6 +1833,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1788,6 +1859,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1813,6 +1885,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -1838,6 +1911,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1863,6 +1937,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1888,6 +1963,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1913,6 +1989,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1938,6 +2015,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1963,6 +2041,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -1988,6 +2067,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2013,6 +2093,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2038,6 +2119,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2063,6 +2145,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2088,6 +2171,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2113,6 +2197,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2138,6 +2223,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2163,6 +2249,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2188,6 +2275,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2213,6 +2301,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2238,6 +2327,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2263,6 +2353,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -2288,6 +2379,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2313,6 +2405,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2338,6 +2431,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2363,6 +2457,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Misc.",
@@ -2388,6 +2483,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2413,6 +2509,7 @@
     "isNew": true,
     "questioned": false,
     "validated": true,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2438,6 +2535,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -2463,6 +2561,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2488,6 +2587,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -2513,6 +2613,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": false,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Misc.",
@@ -2538,6 +2639,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Direct (D)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2563,6 +2665,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Social eng. (SE)",
@@ -2588,6 +2691,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
@@ -2613,6 +2717,7 @@
     "isNew": true,
     "questioned": false,
     "validated": false,
+    "hasPrompt": true,
     "stages": {
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
