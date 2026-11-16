@@ -18,7 +18,7 @@
    <tr><th>Date</th><td>May'26</td></tr>
    <tr><th>Category</th><td>AI Agent</td></tr>
    <tr><th>Target</th><td>Third-party website chatbot plugins (10,000+ sites)</td></tr>
-   <tr><th>Coverage</th><td>3 / 7 stages</td></tr>
+   <tr><th>Coverage</th><td>4 / 7 stages</td></tr>
    <tr><th>Venue</th><td>IEEE S&amp;P 2026</td></tr>
    <tr><th>Source</th><td><a href="https://arxiv.org/pdf/2511.05797" rel="noreferrer noopener">original (paper)</a> · <a href="../archive/chatbot-plugin-injection/paper.pdf">archived copy</a></td></tr>
   </tbody></table>
@@ -31,7 +31,9 @@
    <td class="why"><div class="just">Plugins that fail to protect conversation-history integrity let attackers forge fake system messages, overriding the chatbot&#39;s instructions.</div>
    <div class="ev"><q>allowing adversaries to forge conversation histories (including fake system messages), boosting their ability to elicit unintended behavior</q> <span class="loc">Abstract</span></div></td></tr>
 <tr class="absent"><th>Recon.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
-<tr class="absent"><th>Persist.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr><th>Persist.</th><td class="val">Dependent (channel)</td>
+   <td class="why"><div class="just">Injected third-party content (e.g. a malicious review) is scraped into the chatbot&#39;s RAG knowledge base and retrieved again in later, benign user sessions.</div>
+   <div class="ev"><q>Unlike direct prompt injections, indirect ones against web chatbots are persistent: once malicious content is embedded into the chatbot’s knowledge base, it can be retrieved later and trigger harmful behavior even during benign user interactions.</q> <span class="loc">arXiv 2511.05797, p7</span></div></td></tr>
 <tr class="absent"><th>C2</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
 <tr class="absent"><th>Lat. Mov.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
 <tr><th>Action on Obj.</th><td class="val">Misc (unintended behavior)</td>

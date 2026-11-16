@@ -2333,7 +2333,7 @@
     "dateDisplay": "May'26",
     "category": "AI Agent",
     "target": "Third-party website chatbot plugins (10,000+ sites)",
-    "coverage": 3,
+    "coverage": 4,
     "venue": "IEEE S&P 2026",
     "isNew": true,
     "questioned": false,
@@ -2342,7 +2342,7 @@
       "initial_access": "Indirect (I)",
       "privilege_escalation": "Instruction override (IO)",
       "reconnaissance": null,
-      "persistence": null,
+      "persistence": "Dependent (channel)",
       "command_control": null,
       "lateral_movement": null,
       "action_on_objective": "Misc (unintended behavior)"
