@@ -7,8 +7,6 @@ let DATA = [];
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-fetch('incidents.json?v=' + Date.now()).then(r => r.json()).then(d => { DATA = d; setup(); });
-
 let CATSEL = new Set(), YEARSEL = new Set();
 
 function multiSelect(el, values) {
@@ -93,6 +91,10 @@ function openModal(slug) {
     const back = main && main.querySelector('.back'); if (back) back.remove();
     body.innerHTML = main ? main.innerHTML : '<p>Not found.</p>';
     m.querySelector('.modal-card').scrollTop = 0;
-  }).catch(() => { body.innerHTML = '<p>Failed to load incident.</p>'; });
+  }).catch(() => { location.href = 'incident/' + slug + '.html'; });  // sandboxed mirror: open the page instead
 }
 function closeModal() { $('#modal').hidden = true; document.body.classList.remove('modal-open'); }
+
+// Last, so every `let` above is initialized before setup() runs synchronously.
+if (window.INCIDENTS) { DATA = window.INCIDENTS; setup(); }
+else fetch('incidents.json?v=' + Date.now()).then(r => r.json()).then(d => { DATA = d; setup(); });
