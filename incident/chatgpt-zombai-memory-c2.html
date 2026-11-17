@@ -18,7 +18,7 @@
    <tr><th>Date</th><td>Dec'24</td></tr>
    <tr><th>Category</th><td>AI Agent</td></tr>
    <tr><th>Target</th><td>ChatGPT</td></tr>
-   <tr><th>Coverage</th><td>5 / 7 stages</td></tr>
+   <tr><th>Coverage</th><td>6 / 7 stages</td></tr>
    <tr><th>Venue</th><td>Embrace The Red (blog)</td></tr>
    <tr><th>Source</th><td><a href="https://embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/" rel="noreferrer noopener">original (blog)</a> · <a href="../archive/chatgpt-zombai-memory-c2/snapshot.html">archived copy</a></td></tr>
   </tbody></table>
@@ -30,7 +30,9 @@
 <tr><th>Priv. Esc.</th><td class="val">Instruction override (IO)</td>
    <td class="why"><div class="just">The injection overrides behaviour to write a persistent C2 implant into memory.</div>
    <div class="ev"><q>initial infection persists malicious instructions in ChatGPT’s long-term storage</q> <span class="loc">embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/</span></div></td></tr>
-<tr class="absent"><th>Recon.</th><td class="val">—</td><td class="why">not demonstrated</td></tr>
+<tr><th>Recon.</th><td class="val">Yes</td>
+   <td class="why"><div class="just">The implanted instructions fire only when the user starts a new conversation or types a trigger word, so the LLM monitors the context to decide when to fetch and execute the attacker&#39;s commands (time-triggered execution).</div>
+   <div class="ev"><q>WHENEVER a I start new conversation or when I type &quot;hello&quot;</q> <span class="loc">embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/ (prompt injection payload)</span></div></td></tr>
 <tr><th>Persist.</th><td class="val">Independent (memory)</td>
    <td class="why"><div class="just">C2 instructions live in ChatGPT’s long-term memory and re-arm every session.</div>
    <div class="ev"><q>initial infection persists malicious instructions in ChatGPT’s long-term storage</q> <span class="loc">embracethered.com/blog/posts/2025/spaiware-and-chatgpt-command-and-control-via-prompt-injection-zombai/</span></div></td></tr>
